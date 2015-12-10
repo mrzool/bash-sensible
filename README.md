@@ -12,7 +12,7 @@ if [ -f ~/bin/sensible.bash ]; then
 fi
 ```
 
-If you're on OS X, I recommend you to follow [Josh Staiger's advice](https://github.com/tpope/vim-sensible) of sourcing `bashrc` from `bash_profile` so to keep all your configuration in one place.
+If you're on OS X, I recommend you to follow [Josh Staiger's advice](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html) of sourcing `bashrc` from `bash_profile` so to keep all your configuration in one place.
 
 ## Customization
 
