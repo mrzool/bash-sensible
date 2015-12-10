@@ -21,7 +21,15 @@ A couple of things in `sensible.bash` are intended to be customized:
 - **`CDPATH`** to define where cd will look for target beside your current working directory
 - **`cdable_vars`**, variables containing paths that allow you to jump in your favorite places across the file system at the speed of thought
 
-Refer to the comments in `sensible.bash` for the details.
+Refer to the comments in `sensible.bash` and [to my article](http://mrzool.cc/writing/sensible-bash/) for the details.
+
+
+## Further resources
+
+- [The art of command line](https://github.com/jlevy/the-art-of-command-line)
+- [Command-line one liners](http://arturoherrero.com/command-line-one-liners/)
+- [Bioinformatics one liners](https://github.com/stephenturner/oneliners)
+- [What is your single most favorite command-line trick using Bash?](http://stackoverflow.com/questions/68372/what-is-your-single-most-favorite-command-line-trick-using-bash) on Stack Overflow
 
 ## License
 
