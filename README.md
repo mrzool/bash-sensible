@@ -2,6 +2,8 @@
 
 An attempt at saner Bash defaults. Inspired by Tim Pope's [sensible.vim](https://github.com/tpope/vim-sensible).
 
+**Work in progress!**
+
 ## Usage
 
 Download `sensible.bash` and source it at the top of your `bashrc` like this:
