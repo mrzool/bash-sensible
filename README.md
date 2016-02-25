@@ -32,8 +32,8 @@ Options to make file system navigation blazingly fast:
 
 1. Prepend cd to directory names automatically, so you can `cd` into directories just by typing their name;
 2. Automatically correct spelling errors during tab-completion;
-3. Automatically correct spelling errors in arguments supplied to `cd`.
-4. **`CDPATH`** defines where `cd` will look for targets---the default is the current working directory, but you can add directories you want to have fast access to (ex: `projects`, `repos`, `documents`...)
+3. Automatically correct spelling errors in arguments supplied to `cd`;
+4. **`CDPATH`** defines where `cd` will look for targets—the default is the current working directory, but you can add directories you want to have fast access to (ex: `projects`, `repos`, `documents`...)
 5. **`cdable_vars`** allows you to define paths as variables and `cd` into it from wherever you are in the file system, kind of like a bookmarking system for Bash.
 
 Refer to the comments in `sensible.bash`  to learn more.
