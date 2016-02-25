@@ -1,6 +1,5 @@
-##########################
-# Smarter tab-completion #
-##########################
+# Smarter tab-completion
+########################
 
 # Perform file completion in a case insensitive fashion
 bind "set completion-ignore-case on"
@@ -11,9 +10,33 @@ bind "set completion-map-case on"
 # Display matches for ambiguous patterns at first tab press
 bind "set show-all-if-ambiguous on"
 
-#######################################
-# Better, faster directory navigation #
-#######################################
+# Sane History Defaults
+#######################
+
+# Append to the history file, don't overwrite it
+shopt -s histappend
+
+# Save multi-line commands as one command
+shopt -s cmdhist
+
+# Record each line as it gets issued
+PROMPT_COMMAND='history -a'
+
+# Huge history. Doesn't appear to slow things down, so why not?
+HISTSIZE=500000
+HISTFILESIZE=100000
+
+# Avoid duplicate entries
+HISTCONTROL="erasedups:ignoreboth"
+
+# Don't record some commands
+export HISTIGNORE="&:[ ]*:exit:ls:bg:fg:history"
+
+# Useful timestamp format
+HISTTIMEFORMAT='%F %T '
+
+# Better, directory navigation
+##############################
 
 # Prepend cd to directory names automatically
 shopt -s autocd
@@ -37,28 +60,3 @@ shopt -s cdable_vars
 # export documents="$HOME/Documents"
 # export dropbox="$HOME/Dropbox"
 
-#########################
-# Sane History Defaults #
-#########################
-
-# Append to the history file, don't overwrite it
-shopt -s histappend
-
-# Save multi-line commands as one command
-shopt -s cmdhist
-
-# Record each line as it gets issued
-PROMPT_COMMAND='history -a'
-
-# Huge history. Doesn't appear to slow things down, so why not?
-HISTSIZE=500000
-HISTFILESIZE=100000
-
-# Avoid duplicate entries
-HISTCONTROL="erasedups:ignoreboth"
-
-# Don't record some commands
-export HISTIGNORE="&:[ ]*:exit:ls:bg:fg:history"
-
-# Useful timestamp format
-HISTTIMEFORMAT='%F %T '
