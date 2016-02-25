@@ -26,7 +26,7 @@ Some tweakings to the command history, mostly taken from Tom Ryder's article [Be
 6. Avoid recording unneeded commands (`exit`, `ls`, `bg`, `fg`, and `history` itself);
 7. Make use of a timestamp format that is actually useful.
 
-### 3. Better, directory navigation
+### 3. Better directory navigation
 
 Options to make file system navigation blazingly fast:
 
