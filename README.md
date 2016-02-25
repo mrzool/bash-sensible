@@ -8,7 +8,7 @@ An attempt at saner Bash defaults. Inspired by Tim Pope's [sensible.vim](https:/
 
 ### Smarter tab completion
 
-Options to improve on Bash's default tab completion. This settings get Bash to:
+Options to improve on Bash's default tab completion. These settings get Bash to:
 
 1. Perform file completion in a case insensitive fashion;
 2. Treat hyphens and underscores as equivalent;
