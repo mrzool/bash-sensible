@@ -26,15 +26,15 @@ Some tweakings to the command history, mostly taken from Tom Ryder's article [Be
 - Avoid recording unneeded commands (`exit`, `ls`, `bg`, `fg`, and `history` itself);
 - Make use of a timestamp format that is actually useful.
 
-### Better, directory navigation
+### Better directory navigation
 
 Options to make file system navigation blazingly fast:
 
 - Prepend cd to directory names automatically, so you can `cd` into directories just by typing their name;
 - Automatically correct spelling errors during tab-completion;
 - Automatically correct spelling errors in arguments supplied to `cd`;
-- **`CDPATH`** defines where `cd` will look for targets—the default is the current working directory, but you can add directories you want to have fast access to (ex: `projects`, `repos`, `documents`...)
-- **`cdable_vars`** allows you to define paths as variables and `cd` into it from wherever you are in the file system, kind of like a bookmarking system for Bash.
+- `CDPATH` defines where `cd` will look for targets—the default is the current working directory, but you can add directories you want to have fast access to (ex: `projects`, `repos`, `documents`...)
+- `cdable_vars` allows you to define paths as variables and `cd` into it from wherever you are in the file system, kind of like a bookmarking system for Bash.
 
 Refer to the comments in `sensible.bash`  to learn more. I also wrote an [article](http://mrzool.cc/writing/sensible-bash/) where I explain each option in detail.
 
