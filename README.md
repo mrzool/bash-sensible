@@ -4,9 +4,9 @@ An attempt at saner Bash defaults. Inspired by Tim Pope's [sensible.vim](https:/
 
 ## The config
 
-`sensible.bash` is intended to be a simple starting point to enjoy a better Bash experience out of the box. The file has three sections.
+`sensible.bash` is intended to be a simple starting point for a better Bash experience out of the box. The file has three sections. Refer to the comments in `sensible.bash`  to learn more about each option, and check out my [article](http://mrzool.cc/writing/sensible-bash/) if you want to dig deeper.
 
-### Smarter tab completion
+### 1. Smarter tab completion
 
 Options to improve on Bash's default tab completion. These settings get Bash to:
 
@@ -14,7 +14,7 @@ Options to improve on Bash's default tab completion. These settings get Bash to:
 - Treat hyphens and underscores as equivalent;
 - Display matches for ambiguous patterns at the first press of the tab key (instead of requiring two tab-presses).
 
-### Sane history defaults
+### 2. Sane history defaults
 
 Some tweakings to the command history, mostly taken from Tom Ryder's article [Better Bash History](http://blog.sanctum.geek.nz/better-bash-history/). These options will get Bash to:
 
@@ -26,7 +26,7 @@ Some tweakings to the command history, mostly taken from Tom Ryder's article [Be
 - Avoid recording unneeded commands (`exit`, `ls`, `bg`, `fg`, and `history` itself);
 - Make use of a timestamp format that is actually useful.
 
-### Better directory navigation
+### 3. Better directory navigation
 
 Options to make file system navigation blazingly fast:
 
@@ -35,8 +35,6 @@ Options to make file system navigation blazingly fast:
 - Automatically correct spelling errors in arguments supplied to `cd`;
 - `CDPATH` defines where `cd` will look for targets—the default is the current working directory, but you can add directories you want to have fast access to (ex: `projects`, `repos`, `documents`...)
 - `cdable_vars` allows you to define paths as variables and `cd` into it from wherever you are in the file system, kind of like a bookmarking system for Bash.
-
-Refer to the comments in `sensible.bash`  to learn more. I also wrote an [article](http://mrzool.cc/writing/sensible-bash/) where I explain each option in detail.
 
 ## Usage
 
