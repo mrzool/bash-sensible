@@ -38,7 +38,7 @@ Options to make file system navigation blazingly fast:
 
 ## Usage
 
-You can either copy `sensible.bash` in your `bashrc` or cherry-pick the options you like most from it, but the fastest way to get started is probably to source it from the top of your `bashrc`:
+You can either copy `sensible.bash` in your `bashrc` or cherry-pick the options you like most from it, but the fastest way to get started is to source the file at the top of your `bashrc`:
 
 ```bash
 if [ -f ~/bin/sensible.bash ]; then
