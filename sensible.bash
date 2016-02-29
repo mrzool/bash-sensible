@@ -1,3 +1,7 @@
+# Sensible Bash - An attempt at saner Bash defaults
+# Maintainer: mrzool <http://mrzool.cc>
+# Version: 0.1
+
 # Smarter tab-completion
 ########################
 
