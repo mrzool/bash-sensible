@@ -4,7 +4,7 @@ An attempt at saner Bash defaults. Inspired by Tim Pope's [sensible.vim](https:/
 
 ## The config
 
-`sensible.bash` is intended to be a simple starting point for a better Bash experience out of the box. The file has three sections. Refer to the comments in `sensible.bash`  to learn more about each option, and check out my [article](http://mrzool.cc/writing/sensible-bash/) if you want to dig deeper.
+`sensible.bash` is intended to be a simple starting point for a better Bash experience out of the box. The file has three sections. Refer to [source](https://github.com/mrzool/bash-sensible/blob/master/sensible.bash) for a complete list of all the options.
 
 ### 1. Smarter tab completion
 
@@ -46,14 +46,20 @@ if [ -f ~/bin/sensible.bash ]; then
 fi
 ```
 
-## Contributing
-
-If you think I've missed an important option that should be present, or included something that doesn't belong here, open an issue or submit a pull request. I'd love to hear from you!
-
 #### Note for OS X users
 
 If you're using OS X, I recommend to follow [Josh Staiger's advice](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html) and source `bashrc` from `bash_profile` so to keep all your configuration in one place.
 
+## Contributing
+
+Consider this as a work in progress where everything is open for discussion. If you think I've missed something important or included something that doesn't belong, open an issue or submit a pull request.
+
+## See also
+
+- My [article](http://mrzool.cc/writing/sensible-bash/) about Sensible Bash
+- My [dotfiles](https://github.com/mrzool/dotfiles) for more \*nix configuration goodies
+- Everything on [Arabesque](http://blog.sanctum.geek.nz/). Start from the [posts about Bash](http://blog.sanctum.geek.nz/category/bash/) and from the excellent series [Unix as IDE](http://blog.sanctum.geek.nz/series/unix-as-ide/) (which is also available as [ebook](https://github.com/mrzool/unix-as-ide)) 
+- [The Art of Unix Programming](http://catb.org/esr/writings/taoup/) is an essential read for everyone interested in Unix and I can't recommend it enough
 
 ## License
 
