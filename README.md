@@ -52,7 +52,7 @@ If you're using OS X, I recommend to follow [Josh Staiger's advice](http://www.j
 
 ## Contributing
 
-Consider this as a work in progress where everything is open for discussion. If you think I've missed something important or included something that doesn't belong, open an issue or submit a pull request.
+Consider this as a work in progress where everything is open for discussion. Feel free to open an issue or submit a pull request if you think I've missed something important.
 
 ## See also
 
