@@ -18,7 +18,7 @@ Options to improve on Bash's default tab completion. These settings get Bash to:
 
 Some tweakings to the command history, mostly taken from Tom Ryder's article [Better Bash History](http://blog.sanctum.geek.nz/better-bash-history/). These options will get Bash to:
 
-- Append to the history file, instead of overwriting it;
+- Append to the history file instead of overwriting it;
 - Save multi-line commands as one command;
 - Record each line as it gets issued;
 - Keep track of a bigger history;
@@ -45,6 +45,10 @@ if [ -f ~/bin/sensible.bash ]; then
    source ~/bin/sensible.bash
 fi
 ```
+
+## Contributing
+
+If you think I've missed an important option that should be present, or included something that doesn't belong here, open an issue or submit a pull request. I'd love to hear from you!
 
 #### Note for OS X users
 
