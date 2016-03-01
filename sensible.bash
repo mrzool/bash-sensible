@@ -2,6 +2,17 @@
 # Maintainer: mrzool <http://mrzool.cc>
 # Version: 0.1
 
+## GENERAL OPTIONS ##
+
+# Prevent file overwrite on stdout redirection
+set -o noclobber
+
+# Update window size after every command
+shopt -s checkwinsize
+
+# Automatically trim long paths in the prompt (requires Bash 4.x)
+PROMPT_DIRTRIM=2
+
 ## SMARTER TAB-COMPLETION (Readline bindings) ##
 
 # Perform file completion in a case insensitive fashion
