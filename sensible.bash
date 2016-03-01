@@ -2,8 +2,7 @@
 # Maintainer: mrzool <http://mrzool.cc>
 # Version: 0.1
 
-# Smarter tab-completion
-########################
+## SMARTER TAB-COMPLETION (Readline bindings) ##
 
 # Perform file completion in a case insensitive fashion
 bind "set completion-ignore-case on"
@@ -14,8 +13,7 @@ bind "set completion-map-case on"
 # Display matches for ambiguous patterns at first tab press
 bind "set show-all-if-ambiguous on"
 
-# Sane History Defaults
-#######################
+## SANE HISTORY DEFAULTS ##
 
 # Append to the history file, don't overwrite it
 shopt -s histappend
@@ -39,8 +37,7 @@ export HISTIGNORE="&:[ ]*:exit:ls:bg:fg:history"
 # Useful timestamp format
 HISTTIMEFORMAT='%F %T '
 
-# Better, directory navigation
-##############################
+## BETTER DIRECTORY NAVIGATION ##
 
 # Prepend cd to directory names automatically
 shopt -s autocd
