@@ -1,10 +1,10 @@
-# sensible.bash
+# Sensible Bash
 
 An attempt at saner Bash defaults. Inspired by Tim Pope's [sensible.vim](https://github.com/tpope/vim-sensible).
 
 ## The config
 
-`sensible.bash` is intended to be a simple starting point for a better Bash experience out of the box. The file has three sections. Refer to [source](https://github.com/mrzool/bash-sensible/blob/master/sensible.bash) for a complete list of all the options.
+Sensible Bahs is intended to be a simple starting point for a better Bash experience out of the box. Refer to [source](https://github.com/mrzool/bash-sensible/blob/master/sensible.bash) for a complete list of all the options. Here's a taste of what's in the configuration:
 
 ### 1. Smarter tab completion
 
@@ -53,6 +53,8 @@ If you're using OS X, I recommend to follow [Josh Staiger's advice](http://www.j
 ## Contributing
 
 Consider this as a work in progress where everything is open for discussion. Feel free to open an issue or submit a pull request if you think I've missed something important.
+
+**Please note:** The goal of Sensible Bash is to collect in one place defaults that everyone can agree on.
 
 ## See also
 
