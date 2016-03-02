@@ -63,6 +63,9 @@ shopt -s cdspell
 # Ex: CDPATH=".:~:~/projects" will look for targets in the current working directory, in home and in the ~/projects folder
 CDPATH="."
 
+# With a bit of cleverness, and the aid of brace expansion, it is possible to compactly create a complex multi-branching CDPATH.
+
+
 # This allows you to bookmark your favorite places across the file system
 # Define a variable containing a path and you will be able to cd into it regardless of the directory you're in
 shopt -s cdable_vars
