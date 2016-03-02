@@ -46,6 +46,8 @@ if [ -f ~/bin/sensible.bash ]; then
 fi
 ```
 
+**Note:** Make sure you're running at least Bash 4.x or some options may not work. Keep your software up-to-date!
+
 #### Note for OS X users
 
 If you're using OS X, I recommend to follow [Josh Staiger's advice](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html) and source `bashrc` from `bash_profile` so to keep all your configuration in one place.
