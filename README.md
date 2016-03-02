@@ -58,8 +58,7 @@ Consider this as a work in progress where everything is open for discussion. Fee
 
 - My [article](http://mrzool.cc/writing/sensible-bash/) about Sensible Bash
 - My [dotfiles](https://github.com/mrzool/dotfiles) for more \*nix configuration goodies
-- Everything on [Arabesque](http://blog.sanctum.geek.nz/). Start from the [posts about Bash](http://blog.sanctum.geek.nz/category/bash/) and from the excellent series [Unix as IDE](http://blog.sanctum.geek.nz/series/unix-as-ide/) (which is also available as [ebook](https://github.com/mrzool/unix-as-ide)) 
-- [The Art of Unix Programming](http://catb.org/esr/writings/taoup/) is an essential read for everyone interested in Unix and I can't recommend it enough
+- [Unix as IDE](https://github.com/mrzool/unix-as-ide)), my ebook port of the excellent [post series](http://blog.sanctum.geek.nz/series/unix-as-ide/) by Tom Ryder
 
 ## License
 
