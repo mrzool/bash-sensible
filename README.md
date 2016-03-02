@@ -54,8 +54,6 @@ If you're using OS X, I recommend to follow [Josh Staiger's advice](http://www.j
 
 Consider this as a work in progress where everything is open for discussion. Feel free to open an issue or submit a pull request if you think I've missed something important.
 
-**Please note:** The goal of Sensible Bash is to collect in one place defaults that everyone can agree on.
-
 ## See also
 
 - My [article](http://mrzool.cc/writing/sensible-bash/) about Sensible Bash
