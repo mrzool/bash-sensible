@@ -64,6 +64,29 @@ shopt -s cdspell
 CDPATH="."
 
 # With a bit of cleverness, and the aid of brace expansion, it is possible to compactly create a complex multi-branching CDPATH.
+# For the simplest directory structure (i.e. /x00{,/x10{,/x20{,/x30}}}, the expansion result is...
+# input>
+CDPATH=`printf %s\\: /x00{,/x10{,/x20{,/x30}}}`
+# equivalant to..
+CDPATH=/x00:/x00/x10:/x00/x10/x20:/x00/x10/x20/x30:
+
+# For a binary branching structure...
+CDPATH=`printf %s\\: /x00{,/x10{,/x20,/x21},/x11{,/x21,/x22}}`
+#becomes...
+CDPATH=/x00:/x00/x10:/x00/x10/x20:/x00/x10/x21:/x00/x11:/x00/x11/x21:/x00/x11/x22:
+  
+# realword example
+CDPATH=`printf %s\\: ~{,/Desktop{,/The\ Cloud{,/Dropbox{,{/Career,/Research-MSU-II{,/Brown_Dwarf_Project}}}}},/Library{,/the ceXShop}}`
+# becomes...
+CDPATH=/Users/cdr35:/Users/cdr35/Desktop:/Users/cdr35/Desktop/The\ Cloud:/Users/cdr35/Desktop/The\ Cloud/Dropbox:/Users/cdr35/Desktop/The\ Cloud/Dropbox/Career:/Users/cdr35/Desktop/The\ Cloud/Dropbox/Research-MSU-II:/Users/cdr35/Desktop/The\ Cloud/Dropbox/Research-MSU-II/Brown_Dwarf_Project:/Users/cdr35/Library:/Users/cdr35/Library/TeXShop:
+  
+# Lastly, terminating in a triple branch
+CDPATH=`printf %s\\: ~{,/Desktop{,/The\ Cloud{,{/Dropbox,/Mega,/Cubby}}}}`
+#becomes..
+CDPATH=/Users/cdr35:/Users/cdr35/Desktop:/Users/cdr35/Desktop/The\ Cloud:/Users/cdr35/Desktop/The\ Cloud/Dropbox:/Users/cdr35
+
+  
+
 
 
 # This allows you to bookmark your favorite places across the file system
