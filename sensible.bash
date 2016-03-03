@@ -83,7 +83,7 @@ CDPATH=/Users/cdr35:/Users/cdr35/Desktop:/Users/cdr35/Desktop/The\ Cloud:/Users/
 # Lastly, terminating in a triple branch
 CDPATH=`printf %s\\: ~{,/Desktop{,/The\ Cloud{,{/Dropbox,/Mega,/Cubby}}}}`
 #becomes..
-CDPATH=/Users/cdr35:/Users/cdr35/Desktop:/Users/cdr35/Desktop/The\ Cloud:/Users/cdr35/Desktop/The\ Cloud/Dropbox:/Users/cdr35
+CDPATH=/Users/cdr35:/Users/cdr35/Desktop:/Users/cdr35/Desktop/The\ Cloud:/Users/cdr35/Desktop/The\ Cloud/Dropbox:/Users/cdr35/Desktop/The\ Cloud/Cubby:
 
   
 
