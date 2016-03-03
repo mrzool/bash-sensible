@@ -4,7 +4,7 @@ An attempt at saner Bash defaults. Inspired by Tim Pope's [sensible.vim](https:/
 
 ## The config
 
-Sensible Bash is intended to be a simple starting point for a better Bash user experience out of the box. Refer to [source](https://github.com/mrzool/bash-sensible/blob/master/sensible.bash) for a complete list of all the options. Here's a taste of what's in the configuration:
+Sensible Bash is intended to be a simple starting point for a better Bash user experience out of the box. Refer to [source](https://github.com/mrzool/bash-sensible/blob/master/sensible.bash) for a complete list of all the options. Here's a taste:
 
 ### 1. Smarter tab completion
 
