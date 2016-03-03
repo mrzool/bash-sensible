@@ -63,6 +63,32 @@ shopt -s cdspell
 # Ex: CDPATH=".:~:~/projects" will look for targets in the current working directory, in home and in the ~/projects folder
 CDPATH="."
 
+# With a bit of cleverness, and the aid of brace expansion, it is possible to compactly create a complex multi-branching CDPATH.
+# For the simplest directory structure (i.e. /x00{,/x10{,/x20{,/x30}}}, the expansion result is...
+# input>
+CDPATH=`printf %s\\: /x00{,/x10{,/x20{,/x30}}}`
+# equivalent to..
+CDPATH=/x00:/x00/x10:/x00/x10/x20:/x00/x10/x20/x30:
+
+# For a binary branching structure...
+CDPATH=`printf %s\\: /x00{,/x10{,/x20,/x21},/x11{,/x21,/x22}}`
+#equivalent to...
+CDPATH=/x00:/x00/x10:/x00/x10/x20:/x00/x10/x21:/x00/x11:/x00/x11/x21:/x00/x11/x22:
+  
+# realword example
+CDPATH=`printf %s\\: ~{,/Desktop{,/The\ Cloud{,/Dropbox{,{/Career,/Research-MSU-II{,/Brown_Dwarf_Project}}}}},/Library{,/the ceXShop}}`
+# equivalent to...
+CDPATH=/Users/cdr35:/Users/cdr35/Desktop:/Users/cdr35/Desktop/The\ Cloud:/Users/cdr35/Desktop/The\ Cloud/Dropbox:/Users/cdr35/Desktop/The\ Cloud/Dropbox/Career:/Users/cdr35/Desktop/The\ Cloud/Dropbox/Research-MSU-II:/Users/cdr35/Desktop/The\ Cloud/Dropbox/Research-MSU-II/Brown_Dwarf_Project:/Users/cdr35/Library:/Users/cdr35/Library/TeXShop:
+  
+# Lastly, terminating in a triple branch
+CDPATH=`printf %s\\: ~{,/Desktop{,/The\ Cloud{,{/Dropbox,/Mega,/Cubby}}}}`
+# equivalent to..
+CDPATH=/Users/cdr35:/Users/cdr35/Desktop:/Users/cdr35/Desktop/The\ Cloud:/Users/cdr35/Desktop/The\ Cloud/Dropbox:/Users/cdr35/Desktop/The\ Cloud/Cubby:
+
+  
+
+
+
 # This allows you to bookmark your favorite places across the file system
 # Define a variable containing a path and you will be able to cd into it regardless of the directory you're in
 shopt -s cdable_vars
