@@ -46,7 +46,12 @@ if [ -f ~/bin/sensible.bash ]; then
 fi
 ```
 
-**Note:** Make sure you're running at least Bash 4.x or some options may not work. Keep your software up-to-date!
+### Caveats
+
+In order to get Sensible Bash to work correctly, make sure that:
+
+- You're running at least Bash 4.x. Keep your software up-to-date!
+- You have the [Bash Completion](http://bash-completion.alioth.debian.org/) package installed and properly configured on your system.
 
 #### Note for OS X users
 
