@@ -59,7 +59,7 @@ If you're using OS X, I recommend to follow [Josh Staiger's advice](http://www.j
 
 ## Contributing
 
-Consider this as a work in progress where everything is open for discussion. Feel free to open an issue, submit a pull request, or let me know on [Twitter](https://twitter.com/mrzool_) if you think I've missed something important. Same goes for options you think should be removed. 
+Consider this as a work in progress where everything is open for discussion. **I'm looking for feedback!** Feel free to open an issue, submit a pull request, or let me know on [Twitter](https://twitter.com/mrzool_) if you think I've missed something important. Same goes for options you think should be removed.
 
 ## See also
 
