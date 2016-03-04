@@ -52,11 +52,11 @@ HISTTIMEFORMAT='%F %T '
 ## BETTER DIRECTORY NAVIGATION ##
 
 # Prepend cd to directory names automatically
-shopt -s autocd
+shopt -s autocd 2> /dev/null
 # Correct spelling errors during tab-completion
-shopt -s dirspell
+shopt -s dirspell 
 # Correct spelling errors in arguments supplied to cd
-shopt -s cdspell
+shopt -s cdspell 2> /dev/null
 
 # This defines where cd looks for targets
 # Add the directories you want to have fast access to, separated by colon
