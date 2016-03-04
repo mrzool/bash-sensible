@@ -1,7 +1,7 @@
 # Sensible Bash - An attempt at saner Bash defaults
 # Maintainer: mrzool <http://mrzool.cc>
 # Repository: https://github.com/mrzool/bash-sensible
-# Version: 0.1
+# Version: 0.2
 
 ## GENERAL OPTIONS ##
 
