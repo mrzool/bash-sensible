@@ -15,6 +15,11 @@ shopt -s checkwinsize
 # Automatically trim long paths in the prompt (requires Bash 4.x)
 PROMPT_DIRTRIM=2
 
+# Allows space to complete and expand !$ eg:
+# $ ls Projects
+# $ cd !$<space> # completes to `cd Projects`
+bind Space:magic-space
+
 ## SMARTER TAB-COMPLETION (Readline bindings) ##
 
 # Perform file completion in a case insensitive fashion
@@ -62,7 +67,7 @@ bind '"\e[D": backward-char'
 # Prepend cd to directory names automatically
 shopt -s autocd 2> /dev/null
 # Correct spelling errors during tab-completion
-shopt -s dirspell 
+shopt -s dirspell 2> /dev/null
 # Correct spelling errors in arguments supplied to cd
 shopt -s cdspell 2> /dev/null
 
