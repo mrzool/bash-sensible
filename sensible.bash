@@ -20,7 +20,7 @@ PROMPT_DIRTRIM=2
 bind Space:magic-space
 
 # Turn on recursive globbing (enables ** to recurse all directories)
-shopt -s globstar
+shopt -s globstar 2> /dev/null
 
 ## SMARTER TAB-COMPLETION (Readline bindings) ##
 
