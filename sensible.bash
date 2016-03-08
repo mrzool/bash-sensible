@@ -19,6 +19,9 @@ PROMPT_DIRTRIM=2
 # E.g. typing !!<space> will replace the !! with your last command
 bind Space:magic-space
 
+# Turn on recursive globbing (enables ** to recurse all directories)
+shopt -s globstar
+
 ## SMARTER TAB-COMPLETION (Readline bindings) ##
 
 # Perform file completion in a case insensitive fashion
@@ -69,9 +72,6 @@ shopt -s autocd 2> /dev/null
 shopt -s dirspell 2> /dev/null
 # Correct spelling errors in arguments supplied to cd
 shopt -s cdspell 2> /dev/null
-
-# Turn on recursive globbing.
-shopt -s globstar
 
 # This defines where cd looks for targets
 # Add the directories you want to have fast access to, separated by colon
