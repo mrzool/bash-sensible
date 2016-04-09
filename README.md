@@ -34,7 +34,7 @@ Read more about the settings used here in the article [Better Bash History](http
 
 Options that considerably speed up the ability to navigate through the file system:
 
-- Prepend `cd` to directory names automatically, so you can change directory just by typing its name
+- Prepend `cd` to directory names automatically, so you can change to a directory just by typing its name
 - Automatically correct spelling errors during tab-completion and in arguments supplied to `cd`
 - Set more targets to the `cd` command besides the current working directory (ex: `projects`, `repos`, `documents`, etc)
 - Define paths as variables and `cd` into it from anywhere, kind of like a bookmarking system for Bash (`cdable_vars`)
