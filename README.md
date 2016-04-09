@@ -8,7 +8,7 @@ Sensible Bash is intended to be a simple starting point for a better Bash user e
 
 Refer to the commented [source](https://github.com/mrzool/bash-sensible/blob/master/sensible.bash) for a complete list of all the options with explanations. Here's a taste:
 
-### 1. Smarter tab completion
+#### 1. Smarter tab completion
 
 Readline bindings to improve on Bash's default tab completion. These settings get Bash to:
 
@@ -16,7 +16,7 @@ Readline bindings to improve on Bash's default tab completion. These settings ge
 - Treat hyphens and underscores as equivalent;
 - Display matches for ambiguous patterns at the first press of the tab key (instead of requiring two tab-presses).
 
-### 2. Saner history defaults
+#### 2. Saner history defaults
 
 Sensible defaults for the command history. These settings get Bash to:
 
@@ -30,7 +30,7 @@ Sensible defaults for the command history. These settings get Bash to:
 
 Read more about the settings used here in the article [Better Bash History](http://blog.sanctum.geek.nz/better-bash-history/) by Tom Ryder.
 
-### 3. Faster file system navigation
+#### 3. Faster file system navigation
 
 Options that considerably speed up the ability to navigate through the file system:
 
