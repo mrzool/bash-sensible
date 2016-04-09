@@ -10,7 +10,7 @@ Refer to the commented [source](https://github.com/mrzool/bash-sensible/blob/mas
 
 #### Smarter tab completion
 
-Readline bindings to improve on Bash's default tab completion. These settings get Bash to:
+Readline bindings to improve on Bash's default tab completion:
 
 - Perform file completion in a case insensitive fashion
 - Treat hyphens and underscores as equivalent
@@ -18,7 +18,7 @@ Readline bindings to improve on Bash's default tab completion. These settings ge
 
 #### Saner history defaults
 
-Sensible defaults for the command history. These settings get Bash to:
+Sensible defaults for the command history:
 
 - Append to the history file instead of overwriting it
 - Save multi-line commands as one command
