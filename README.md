@@ -26,7 +26,7 @@ Sensible defaults for the command history. These settings get Bash to:
 - Keep track of a bigger history
 - Avoid duplicate entries
 - Avoid recording unneeded commands (`exit`, `ls`, `bg`, `fg`, and `history` itself)
-- Use the [standard ISO 8601](https://tools.ietf.org/html/rfc3339) timestamp (ex: `2016-04-09 13:06:31`) for recording commands
+- Use the [standard ISO 8601](https://tools.ietf.org/html/rfc3339) timestamp for recording commands (ex: `2016-04-09 13:06:31`)
 
 Read more about the settings used here in the article [Better Bash History](http://blog.sanctum.geek.nz/better-bash-history/) by Tom Ryder.
 
