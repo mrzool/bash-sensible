@@ -24,7 +24,7 @@ Some tweakings to the command history, mostly taken from Tom Ryder's article [Be
 - Keep track of a bigger history;
 - Avoid duplicate entries;
 - Avoid recording unneeded commands (`exit`, `ls`, `bg`, `fg`, and `history` itself);
-- Make use of a timestamp format that is actually useful.
+- Use the [standard ISO 8601](https://tools.ietf.org/html/rfc3339) timestamp (ex: `2016-04-09 13:06:31`)
 
 ### 3. Better directory navigation
 
