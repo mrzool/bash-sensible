@@ -4,19 +4,21 @@ An attempt at saner Bash defaults. Inspired by Tim Pope's [sensible.vim](https:/
 
 ## The config
 
-Sensible Bash is intended to be a simple starting point for a better Bash user experience out of the box. Refer to the commented [source](https://github.com/mrzool/bash-sensible/blob/master/sensible.bash) for a complete list of all the options with explanations. Here's a taste:
+Sensible Bash is intended to be a simple starting point for a better Bash user experience out of the box.
+
+Refer to the commented [source](https://github.com/mrzool/bash-sensible/blob/master/sensible.bash) for a complete list of all the options with explanations. Here's a taste:
 
 ### 1. Smarter tab completion
 
-Options to improve on Bash's default tab completion. These settings get Bash to:
+Readline bindings to improve on Bash's default tab completion. These settings get Bash to:
 
 - Perform file completion in a case insensitive fashion;
 - Treat hyphens and underscores as equivalent;
 - Display matches for ambiguous patterns at the first press of the tab key (instead of requiring two tab-presses).
 
-### 2. Sane history defaults
+### 2. Saner history defaults
 
-Some tweakings to the command history, mostly taken from Tom Ryder's article [Better Bash History](http://blog.sanctum.geek.nz/better-bash-history/). These options will get Bash to:
+Sensible defaults for the command history. These settings get Bash to:
 
 - Append to the history file instead of overwriting it;
 - Save multi-line commands as one command;
@@ -24,17 +26,18 @@ Some tweakings to the command history, mostly taken from Tom Ryder's article [Be
 - Keep track of a bigger history;
 - Avoid duplicate entries;
 - Avoid recording unneeded commands (`exit`, `ls`, `bg`, `fg`, and `history` itself);
-- Use the [standard ISO 8601](https://tools.ietf.org/html/rfc3339) timestamp (ex: `2016-04-09 13:06:31`)
+- Use the [standard ISO 8601](https://tools.ietf.org/html/rfc3339) timestamp (ex: `2016-04-09 13:06:31`) for recording commands
 
-### 3. Better directory navigation
+Read more about the settings used here in the article [Better Bash History](http://blog.sanctum.geek.nz/better-bash-history/) by Tom Ryder.
 
-Options to make file system navigation blazingly fast:
+### 3. Faster file system navigation
+
+Options that considerably speed up the ability to navigate through the file system:
 
 - Prepend cd to directory names automatically, so you can `cd` into directories just by typing their name;
-- Automatically correct spelling errors during tab-completion;
-- Automatically correct spelling errors in arguments supplied to `cd`;
-- `CDPATH` defines where `cd` will look for targets—the default is the current working directory, but you can add directories you want to have fast access to (ex: `projects`, `repos`, `documents`...)
-- `cdable_vars` allows you to define paths as variables and `cd` into it from wherever you are in the file system, kind of like a bookmarking system for Bash.
+- Automatically correct spelling errors during tab-completion and in arguments supplied to `cd`;
+- Set more possible targets to the `cd` command besides the current working directory (ex: `projects`, `repos`, `documents`...)
+- Define paths as variables and `cd` into it from anywhere, kind of like a bookmarking system for Bash (`cdable_vars`)
 
 ## Usage
 
