@@ -12,20 +12,20 @@ Refer to the commented [source](https://github.com/mrzool/bash-sensible/blob/mas
 
 Readline bindings to improve on Bash's default tab completion. These settings get Bash to:
 
-- Perform file completion in a case insensitive fashion;
-- Treat hyphens and underscores as equivalent;
-- Display matches for ambiguous patterns at the first press of the tab key (instead of requiring two tab-presses).
+- Perform file completion in a case insensitive fashion
+- Treat hyphens and underscores as equivalent
+- Display matches for ambiguous patterns at the first press of the tab key (instead of requiring two tab-presses)
 
 #### 2. Saner history defaults
 
 Sensible defaults for the command history. These settings get Bash to:
 
-- Append to the history file instead of overwriting it;
-- Save multi-line commands as one command;
-- Record each line as it gets issued;
-- Keep track of a bigger history;
-- Avoid duplicate entries;
-- Avoid recording unneeded commands (`exit`, `ls`, `bg`, `fg`, and `history` itself);
+- Append to the history file instead of overwriting it
+- Save multi-line commands as one command
+- Record each line as it gets issued
+- Keep track of a bigger history
+- Avoid duplicate entries
+- Avoid recording unneeded commands (`exit`, `ls`, `bg`, `fg`, and `history` itself)
 - Use the [standard ISO 8601](https://tools.ietf.org/html/rfc3339) timestamp (ex: `2016-04-09 13:06:31`) for recording commands
 
 Read more about the settings used here in the article [Better Bash History](http://blog.sanctum.geek.nz/better-bash-history/) by Tom Ryder.
@@ -34,8 +34,8 @@ Read more about the settings used here in the article [Better Bash History](http
 
 Options that considerably speed up the ability to navigate through the file system:
 
-- Prepend cd to directory names automatically, so you can `cd` into directories just by typing their name;
-- Automatically correct spelling errors during tab-completion and in arguments supplied to `cd`;
+- Prepend cd to directory names automatically, so you can `cd` into directories just by typing their name
+- Automatically correct spelling errors during tab-completion and in arguments supplied to `cd`
 - Set more possible targets to the `cd` command besides the current working directory (ex: `projects`, `repos`, `documents`...)
 - Define paths as variables and `cd` into it from anywhere, kind of like a bookmarking system for Bash (`cdable_vars`)
 
