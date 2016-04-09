@@ -32,7 +32,7 @@ Read more about the settings used here in the article [Better Bash History](http
 
 #### Faster file system navigation
 
-Options that considerably speed up the ability to navigate through the file system:
+Options that considerably speed up the ability to navigate throughout the file system:
 
 - Prepend `cd` to directory names automatically, so you can change to a directory just by typing its name
 - Automatically correct spelling errors during tab-completion and in arguments supplied to `cd`
@@ -41,7 +41,7 @@ Options that considerably speed up the ability to navigate through the file syst
 
 ## Usage
 
-You can copy `sensible.bash` in your `bashrc`, cherry-pick the options you like most, or source the file at the top of your `bashrc`:
+You can copy `sensible.bash` in your `bashrc`, cherry-pick the options you like, or source the file at the top of your `bashrc`:
 
 ```bash
 if [ -f ~/bin/sensible.bash ]; then
