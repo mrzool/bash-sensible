@@ -80,6 +80,10 @@ bind '"\e[B": history-search-forward'
 bind '"\e[C": forward-char'
 bind '"\e[D": backward-char'
 
+# Bind C-l to clear command (for vi mode users)
+# by default it is binded to vi-command only
+bind -m vi-insert -x '"\C-l":clear'
+
 ## BETTER DIRECTORY NAVIGATION ##
 
 # Prepend cd to directory names automatically
@@ -103,4 +107,3 @@ shopt -s cdable_vars
 # export projects="$HOME/projects"
 # export documents="$HOME/Documents"
 # export dropbox="$HOME/Dropbox"
-
