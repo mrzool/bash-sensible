@@ -57,10 +57,6 @@ In order to get Sensible Bash to work correctly, make sure that:
 - You have the [Bash Completion](http://bash-completion.alioth.debian.org/) package installed and properly configured on your system. ([instructions for OS X](http://davidalger.com/development/bash-completion-on-os-x-with-brew/))
 - If you're on OS X, I recommend to follow [Josh Staiger's advice](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html) and source `bashrc` from `bash_profile` so to keep all your configuration in one place.
 
-## Contributing
-
-Consider this as a work in progress where everything is open for discussion. **I'm looking for feedback!** Feel free to open an issue, submit a pull request, or let me know on [Twitter](https://twitter.com/mrzool_) if you think I've missed something important. Same goes for options you think should be removed.
-
 ## See also
 
 - My [article](http://mrzool.cc/writing/sensible-bash/) about Sensible Bash
