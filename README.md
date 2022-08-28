@@ -53,9 +53,9 @@ fi
 
 In order to get Sensible Bash to work correctly, make sure that:
 
-- You're running at least Bash 4.x (`echo $BASH_VERSION`). OS X users: Read [this](https://johndjameson.com/blog/updating-your-shell-with-homebrew/) to install and set up Bash correctly.
+- You're running at least Bash 4.x (`echo $BASH_VERSION`).
 - You have the [Bash Completion](https://github.com/scop/bash-completion) package installed and properly configured on your system.
-- If you're on OS X, I recommend to follow [Josh Staiger's advice](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html) and source `bashrc` from `bash_profile` so to keep all your configuration in one place.
+- If you're on macOS, I recommend to follow [Josh Staiger's advice](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html) and source `bashrc` from `bash_profile` so to keep all your configuration in one place.
 
 ## See also
 
