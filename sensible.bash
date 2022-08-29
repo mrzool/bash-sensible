@@ -62,6 +62,9 @@ PROMPT_COMMAND='history -a'
 HISTSIZE=500000
 HISTFILESIZE=100000
 
+# Change the file location because some bash sessions truncate .bash_history
+export HISTFILE=~/.history_bash
+    
 # Avoid duplicate entries
 HISTCONTROL="erasedups:ignoreboth"
 
