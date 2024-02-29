@@ -3,6 +3,11 @@
 # Repository: https://github.com/mrzool/bash-sensible
 # Version: 0.2.2
 
+# If shell is not interactive: do nothing
+if [[ $- != *i* ]] ; then
+  return
+fi
+
 # Unique Bash version check
 if ((BASH_VERSINFO[0] < 4))
 then 
