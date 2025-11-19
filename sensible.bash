@@ -44,6 +44,12 @@ bind "set show-all-if-ambiguous on"
 # Immediately add a trailing slash when autocompleting symlinks to directories
 bind "set mark-symlinked-directories on"
 
+# Cycle forward through completion matches with Tab
+bind '"\t": menu-complete'
+
+# Cycle backward through completion matches with Shift-Tab
+bind '"\e[Z": menu-complete-backward'
+
 ## SANE HISTORY DEFAULTS ##
 
 # Append to the history file, don't overwrite it
