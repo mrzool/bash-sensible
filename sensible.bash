@@ -3,6 +3,9 @@
 # Repository: https://github.com/mrzool/bash-sensible
 # Version: 0.2.2
 
+# Bail out without an interactive tty (avoids 'bind: warning: line editing not enabled')
+[[ $- == *i* && -t 0 ]] || return 0
+
 # Unique Bash version check
 if ((BASH_VERSINFO[0] < 4))
 then 
